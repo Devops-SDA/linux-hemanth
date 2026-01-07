@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food World</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fffaf0;
+            color: #333;
+        }
+
+        header {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #c0392b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #e74c3c;
+        }
+
+        .food-list {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .food-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 15px;
+            width: 250px;
+        }
+
+        footer {
+            background-color: #c0392b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Food World</h1>
+        <p>Discover delicious food from around the world</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#types">Food Types</a>
+        <a href="#benefits">Benefits</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="section" id="about">
+            <h2>About Food</h2>
+            <p>
+                Food is essential for life. It provides the energy and nutrients 
+                our bodies need to grow, stay healthy, and function properly.
+            </p>
+        </div>
+
+        <div class="section" id="types">
+            <h2>Popular Food Types</h2>
+            <div class="food-list">
+                <div class="food-card">
+                    <h3>Fruits</h3>
+                    <p>Rich in vitamins, minerals, and natural sweetness.</p>
+                </div>
+                <div class="food-card">
+                    <h3>Vegetables</h3>
+                    <p>Healthy and full of fiber, helping digestion.</p>
+                </div>
+                <div class="food-card">
+                    <h3>Fast Food</h3>
+                    <p>Quick and tasty meals enjoyed worldwide.</p>
+                </div>
+                <div class="food-card">
+                    <h3>Desserts</h3>
+                    <p>Sweet treats like cakes, ice cream, and pastries.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="benefits">
+            <h2>Benefits of Healthy Food</h2>
+            <ul>
+                <li>Improves overall health</li>
+                <li>Boosts energy levels</li>
+                <li>Strengthens immunity</li>
+                <li>Helps maintain a healthy weight</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Food World | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
